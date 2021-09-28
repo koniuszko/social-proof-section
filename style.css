@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan';
+    font-size: 14px;
+}
+
+main {
+    width: 350px;
+    height: 100vh;
+    margin: 50px auto;
+}
+
+.bg_top {
+    background-image: url(./images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    position: fixed;
+    top: -50px;
+    width: 375px;
+    height: 100vh;
+}
+
+.bg_bottom {
+    background-image: url(./images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    position: fixed;
+    width: 375px;
+    height: 100vh;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+
+}
+
+.text {
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 400;
+    color: hsl(303, 10%, 53%)
+}
+
+.rate_component {
+    margin: 10px;
+    padding: 15px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stars {
+    background-image: url(./images/icon-star.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+h2 {
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.comment_component {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user {}
+
+.img_one {
+    background-image: url(./images/image-colton.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.img_two {
+    background-image: url(./images/image-irene.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.img_three {
+
+    background-image: url(./images/image-anne.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.comment {
+    color: hsl(0, 0%, 100%)
+}
