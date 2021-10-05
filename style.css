@@ -6,28 +6,9 @@
     font-size: 14px;
 }
 
-main {
+.wrapper {
     width: 350px;
-    height: 100vh;
     margin: 50px auto;
-}
-
-.bg_top {
-    background-image: url(./images/bg-pattern-top-mobile.svg);
-    background-repeat: no-repeat;
-    position: fixed;
-    top: -50px;
-    width: 375px;
-    height: 100vh;
-}
-
-.bg_bottom {
-    background-image: url(./images/bg-pattern-bottom-mobile.svg);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    position: fixed;
-    width: 375px;
-    height: 100vh;
 }
 
 .title {
@@ -144,4 +125,92 @@ h2 {
 .comment {
     color: hsl(0, 0%, 100%);
     margin-top: 20px;
+}
+
+@media(min-width:1440px) {
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1440px;
+        margin: 350px auto;
+    }
+
+    .title {
+        font-size: 60px;
+        text-align: left;
+        width: 620px;
+    }
+
+    .text {
+        padding: 0;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 18px;
+        width: 620px;
+    }
+
+    .rates {
+        margin: 30px;
+    }
+
+    .rate_component {
+        display: flex;
+        padding: 15px 25px;
+        align-content: center;
+    }
+
+    .rate_component:nth-child(1) {
+        margin-left: 50px;
+        margin-right: 150px
+    }
+
+    .rate_component:nth-child(2) {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .rate_component:nth-child(3) {
+        margin-left: 150px;
+        margin-right: 50px;
+    }
+
+    .stars {
+        background-position: center;
+        height: 24px;
+        width: 24px;
+        display: inline-block;
+    }
+
+    h2 {
+        margin: 0 30px;
+        line-height: 30px;
+    }
+
+    .comments {
+        display: flex;
+        justify-content: space-between;
+        width: 1250px;
+    }
+
+    .comment_component {
+        margin: 0;
+        padding: 35px;
+        width: 375px;
+        height: 225px;
+    }
+
+    .comment_component:nth-child(1) {
+        margin-top: 50px;
+    }
+
+    .comment_component:nth-child(2) {
+        margin-top: 70px;
+    }
+
+    .comment_component:nth-child(3) {
+        margin-top: 90px;
+    }
+
+
 }
