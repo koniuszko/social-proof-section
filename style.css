@@ -127,13 +127,18 @@ h2 {
     margin-top: 20px;
 }
 
-@media(min-width:1440px) {
+@media(min-width:1300px) {
 
     .wrapper {
         display: flex;
         flex-wrap: wrap;
-        width: 1440px;
-        margin: 350px auto;
+        width: 1250px;
+        height: 605px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
     }
 
     .title {
@@ -158,21 +163,22 @@ h2 {
         display: flex;
         padding: 15px 25px;
         align-content: center;
+        width: 500px;
     }
 
     .rate_component:nth-child(1) {
-        margin-left: 50px;
-        margin-right: 150px
+        margin-left: 0px;
+
     }
 
     .rate_component:nth-child(2) {
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 30px;
+
     }
 
     .rate_component:nth-child(3) {
-        margin-left: 150px;
-        margin-right: 50px;
+        margin-left: 60px;
+
     }
 
     .stars {
@@ -183,7 +189,7 @@ h2 {
     }
 
     h2 {
-        margin: 0 30px;
+        margin-left: 50px;
         line-height: 30px;
     }
 
